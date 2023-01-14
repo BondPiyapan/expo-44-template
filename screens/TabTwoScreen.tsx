@@ -1,7 +1,6 @@
 import { Button, StyleSheet } from 'react-native';
 import { useDispatch } from 'react-redux';
 
-import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
 import { clearAuth } from '../redux/slices/user.slice';
 

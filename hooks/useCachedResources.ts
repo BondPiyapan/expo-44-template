@@ -16,8 +16,8 @@ export default function useCachedResources() {
         await Font.loadAsync({
           ...FontAwesome.font,
           'space-mono': require('../assets/fonts/SpaceMono-Regular.ttf'),
-          'sukhumvit-set': require('../assets/fonts/SukhumvitSet-Text.ttf'),
-          'sukhumvit-set-bold': require('../assets/fonts/SukhumvitSet-Bold.ttf'),
+          'sukhumvit-set': require('../assets/fonts/Sarabun-Regular.ttf'),
+          'sukhumvit-set-bold': require('../assets/fonts/Sarabun-Bold.ttf'),
         });
       } catch (e) {
         // We might want to provide this error information to an error reporting service
